@@ -1,0 +1,269 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	right: 2px;
+	margin-bottom: 5px;
+	min-height: 600px;
+	text-decoration: none;
+	background-color: #6E6E6E;
+	background-image: url(mainBackground.jpg);
+	margin-top: +5px;
+}
+
+h1#logo, h1#logo {
+    color: #6A0EA7;
+    padding: 0px;
+	margin: auto;
+	font-family: fantasy;
+	max-width: 990px;
+	min-width: 990px;
+	background-image: url(Barner.png);
+	background-size: 100% 100%;
+}
+
+a:link, h1#logo a:visited, h1#logo a:active {
+    color: #6A0EA7;
+    padding: 0px;
+	margin: auto;
+	font-family: fantasy;
+	max-width: 990px;
+	min-width: 990px;
+	background-size: 100% 100%;
+}
+	
+
+h2{
+	margin-top: 0px;
+}
+
+div#main {
+    padding: 0px 10px 10px 10px;
+	min-height: 600px;
+}
+
+div#central {
+    padding: 8px;
+		border: #800080;}
+
+td#izquierdo {
+	margin-top: 20px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+    border: 3px #00ff00 solid;
+	background: #800080;
+    width: 10em;
+	color: #fea500;}
+
+div#izquierdo {
+	text-align: center;
+	min-height: 600px;
+		}
+
+td#derecho {
+	margin-left: 5px;
+	margin-bottom: 10px;
+    border: 3px #00ff00 solid;
+	background: #800080;
+    width: 10em;
+	color: #fea500;}
+
+div#derecho {
+	text-align: center;
+	min-height: 600px;
+}
+
+div#contenido {
+	text-align: center;
+	min-height: 500px;
+	max-width: 990px;
+	min-width: 990px;
+	margin: 0 auto;
+	background-color: white;
+	
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+p.error{
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	color:red;
+	text-align: center;
+	font-size:20px;
+	margin-top: 0;
+}
+
+div#jugador1{
+	float:left;
+	width: 146px;
+	height: 500px;
+	background-image: url(jugador1Background.jpg);	
+	background-size: 100% 100%;
+}
+
+div#jugador2{
+	float:right;
+	width: 146px;
+	height: 500px;
+	background-image: url(jugador2Background.jpg);	
+	background-size: 100% 100%;
+}
+
+div#tablero{
+	font: 3px Verdana, Arial, Helvetica, sans-serif;
+	width: 700px;
+	min-width: 700px;	
+	height: 500px;
+	min-height: 500px;
+	margin: auto;
+	background-image: url(tablero.jpg);
+	background-size: 100% 100%;
+	}
+	
+div#tablero td{
+	width: 93px;
+	height: 120px;
+	min-width: 93px;
+	min-height: 120px;
+}
+	
+div#mano_jugador1{
+	float:left;
+	width: 120px;
+	height: 500px;
+	min-height: 500px;
+	max-height: 500px;
+}
+
+div#mano_jugador2{
+	float:right;
+	width: 120px;
+	height: 500px;
+	min-height: 500px;
+	max-height: 500px;
+}
+
+div#cartas {
+	text-align: center;
+}
+
+table#cartas {
+	padding-top: 70px
+}
+	
+input.amigo{
+	background-image: url(fondoCartaAzul.jpg);	
+	background-size: 100% 100%;
+}
+
+input.enemigo{
+	background-image: url(fondoCartaRoja.jpg);	
+	background-size: 100% 100%;
+}
+
+div#carta_mano0{
+	position: relative;
+	z-index:10;
+	top:0px;	
+}
+
+div#carta_mano1{
+	position: relative;
+	z-index:20;
+	top:-26px;	
+}
+
+div#carta_mano2{
+	position: relative;
+	z-index:30;
+	top:-52px;	
+}
+
+div#carta_mano3{
+	position: relative;
+	z-index:40;
+	top:-77px;	
+}
+
+div#carta_mano4{
+	position: relative;
+	z-index:50;
+	top:-104px;	
+}
+
+img.amigo{
+	background-image: url(fondoCartaAzul.jpg);	
+	background-size: 100% 100%;
+}
+
+img.enemigo{
+	background-image: url(fondoCartaRoja.jpg);	
+	background-size: 100% 100%;
+}
+
+img.jugador{
+	height:100px;
+	width:100px;
+	border:6px groove #545565;
+}
+
+p.mazo{
+	color: orange;
+	font: 16px Verdana;
+}
+
+img.carta_coleccion{
+	background-image: url(fondoCartaAmarilla.jpg);	
+	background-size: 100% 100%;
+	margin: auto;
+	vertical-align:middle;
+}
+
+td.encabezado{
+	text-align:center;
+	border-top: 3px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+td.carta{
+	width:120px;
+	height:120px;
+	text-align:center;
+	border: 2px solid black;
+	
+}
+
+tr.linea_A {
+	padding-top: 2cm;
+	height:120px;
+}
+
+td.nombre{
+	width:120px;
+	height:120px;
+	text-align:center;
+	border: 1px solid black;
+}
+
+td.atributo{
+	width:50px;
+	height:120px;
+	text-align:center;
+	border: 1px solid black;
+}
+
+td.tabla_usuario{
+	width:356px;
+	text-align:center;
+}
+
+p.ganar{
+	font-family: "Arial Black", Gadget, sans-serif;
+	color:white;
+	text-align: center;
+	font-size:25px;
+	margin-top: 0;
+}

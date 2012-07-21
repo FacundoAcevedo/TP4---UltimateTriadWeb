@@ -1,0 +1,30 @@
+Este framework para juego de cartas fue desarrollado por:
+
+Para la cátedra Wachenchauzer de Algoritmos y Programación 1
+
+Para utilizarlo, es necesario completar el módulo backend, con las clases
+ * Jugador
+ * Juego
+ * Tablero
+ * Carta
+
+Una vez programadas las clases, puede iniciarse el servidor mediante el
+comando:
+
+    python ultimate_triad.py
+
+Esto creará un servidor web al que podrá accederse mediante:
+
+    http://localhost:8080
+
+También puede pasarse otra dirección y puerto por parámetro.  Para poder
+jugar con otras personas a través de internet es necesario utilizar una
+dirección IP pública asignada a la computadora donde está corriendo el
+programa.  Por ejemplo, si el programa está corriendo en una computadora
+con la IP 157.92.49.40, se lo debe correr:
+
+	python ultimate_triad.py 157.92.49.40 8080
+
+Y los distintos jugadores deberán conectarse a:
+
+	http://157.92.49.40:8080
